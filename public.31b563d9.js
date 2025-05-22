@@ -160,11 +160,11 @@
       });
     }
   }
-})({"5j6Kf":[function(require,module,exports,__globalThis) {
+})({"flb81":[function(require,module,exports,__globalThis) {
 var global = arguments[3];
 var HMR_HOST = null;
 var HMR_PORT = null;
-var HMR_SERVER_PORT = 1234;
+var HMR_SERVER_PORT = 40081;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "439701173a9199ea";
 var HMR_USE_SSE = false;
@@ -16183,7 +16183,7 @@ const Dashboard = ()=>{
         'DataType'
     ];
     (0, _react.useEffect)(()=>{
-        fetch('/papers.json').then((response)=>response.json()).then((data)=>{
+        fetch('papers.json').then((response)=>response.json()).then((data)=>{
             setAllPapers(data);
         });
     }, []);
@@ -52568,6 +52568,6 @@ $RefreshReg$(_c, "DatasetTable");
   globalThis.$RefreshReg$ = prevRefreshReg;
   globalThis.$RefreshSig$ = prevRefreshSig;
 }
-},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lW6qc":[function() {},{}],"lW6qc":[function() {},{}]},["5j6Kf","a0t4e"], "a0t4e", "parcelRequire5b49", {}, null, null, "http://localhost:1234")
+},{"react/jsx-dev-runtime":"dVPUn","react":"jMk1U","@parcel/transformer-js/src/esmodule-helpers.js":"jnFvT","@parcel/transformer-react-refresh-wrap/lib/helpers/helpers.js":"7h6Pi"}],"lW6qc":[function() {},{}],"lW6qc":[function() {},{}]},["flb81","a0t4e"], "a0t4e", "parcelRequire5b49", {}, null, null, "http://localhost:40081")
 
 //# sourceMappingURL=public.31b563d9.js.map
