@@ -1,0 +1,1250 @@
+[
+    {
+        "PI": "Saitou",
+        "DOI": null,
+        "PaperTitle": "In vitro reconstitution of epigenetic reprogramming in the human germ line",
+        "FirstAuthor": "Murase Y",
+        "Journal": "Nature",
+        "Year": 2024,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Transcriptome analysis of human PGCLCs expanded with BMP signaling.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE232078"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE231812"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": null,
+        "PaperTitle": "In vitro reconstitution of epigenetic reprogramming in the human germ line",
+        "FirstAuthor": "Murase Y",
+        "Journal": "Nature",
+        "Year": 2024,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "DNAme",
+        "MethodsTechnics": "DNAme",
+        "BriefSummaryOfData": "Whole genome EMseq analysis of human PGCLCs expanded with BMP signaling.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE232078"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE231813"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": null,
+        "PaperTitle": "In vitro reconstitution of epigenetic reprogramming in the human germ line",
+        "FirstAuthor": "Murase Y",
+        "Journal": "Nature",
+        "Year": 2024,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "Transcriptome analysis of human PGCLCs expanded with BMP signaling.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE232078"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE232076"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022112962",
+        "PaperTitle": "Induction of fetal meiotic oocytes from embryonic stem cells in cynomolgus monkeys",
+        "FirstAuthor": "Gyobu-Motani S",
+        "Journal": "EMBO J",
+        "Year": 2023,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Whole genome EMseq analysis of Cynomolgus xrOvary and human iPSC",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE216206"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE216201"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022112962",
+        "PaperTitle": "Induction of fetal meiotic oocytes from embryonic stem cells in cynomolgus monkeys",
+        "FirstAuthor": "Gyobu-Motani S",
+        "Journal": "EMBO J",
+        "Year": 2023,
+        "Species": {
+            "Name": "Human & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "DNAme",
+        "MethodsTechnics": "DNAme",
+        "BriefSummaryOfData": "Whole genome EMseq analysis of Cynomolgus xrOvary and human iPSC",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE216206"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE216202"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022112962",
+        "PaperTitle": "Induction of fetal meiotic oocytes from embryonic stem cells in cynomolgus monkeys",
+        "FirstAuthor": "Gyobu-Motani S",
+        "Journal": "EMBO J",
+        "Year": 2023,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNA-Seq analysis of Cynomolgus xrOvary and human iPSC",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE216206"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE216204"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022112962",
+        "PaperTitle": "Induction of fetal meiotic oocytes from embryonic stem cells in cynomolgus monkeys",
+        "FirstAuthor": "Gyobu-Motani S",
+        "Journal": "EMBO J",
+        "Year": 2023,
+        "Species": {
+            "Name": "Human & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNA-Seq analysis of Cynomolgus xrOvary and human iPSC",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE216206"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE216205"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022110815",
+        "PaperTitle": "Ex vivo reconstitution of fetal oocyte development in humans and cynomolgus monkeys",
+        "FirstAuthor": "Mizuta K",
+        "Journal": "EMBO J",
+        "Year": 2022,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "10X scRNA data in human and cynomolgus\nsc3seq data in human, cynomolgus and mouse",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE194266"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE194091"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022110815",
+        "PaperTitle": "Ex vivo reconstitution of fetal oocyte development in humans and cynomolgus monkeys",
+        "FirstAuthor": "Mizuta K",
+        "Journal": "EMBO J",
+        "Year": 2022,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "10X scRNA data in human and cynomolgus\nsc3seq data in human, cynomolgus and mouse",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE194266"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE194264"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022110815",
+        "PaperTitle": "Ex vivo reconstitution of fetal oocyte development in humans and cynomolgus monkeys",
+        "FirstAuthor": "Mizuta K",
+        "Journal": "EMBO J",
+        "Year": 2022,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "10X scRNA data in human and cynomolgus\nsc3seq data in human, cynomolgus and mouse",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE194266"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE195988"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022110815",
+        "PaperTitle": "Ex vivo reconstitution of fetal oocyte development in humans and cynomolgus monkeys",
+        "FirstAuthor": "Mizuta K",
+        "Journal": "EMBO J",
+        "Year": 2022,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "10X scRNA data in human and cynomolgus\nsc3seq data in human, cynomolgus and mouse",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE194266"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE195989"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2022110815",
+        "PaperTitle": "Ex vivo reconstitution of fetal oocyte development in humans and cynomolgus monkeys",
+        "FirstAuthor": "Mizuta K",
+        "Journal": "EMBO J",
+        "Year": 2022,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "10X scRNA data in human and cynomolgus\nsc3seq data in human, cynomolgus and mouse",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE194266"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE195990"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.26508/lsa.202201591",
+        "PaperTitle": "Resolution of the curse of dimensionality in single-cell RNA sequencing data analysis",
+        "FirstAuthor": "Imoto Y",
+        "Journal": "Life Sci Alliance",
+        "Year": 2022,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of human primodial germ cell like cell (PGCLC) induction process using 10x chromium Single Cell Gene expression system.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE175525"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2021.109075",
+        "PaperTitle": "The embryonic ontogeny of the gonadal somatic cells in mice and monkeys",
+        "FirstAuthor": "Sasaki K",
+        "Journal": "Cell Report",
+        "Year": 2021,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of cynomolgus monkey embryo using 10x chromium Single Cell Gene expression system.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE160050"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE160043"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2021.109075",
+        "PaperTitle": "The embryonic ontogeny of the gonadal somatic cells in mice and monkeys",
+        "FirstAuthor": "Sasaki K",
+        "Journal": "Cell Report",
+        "Year": 2021,
+        "Species": {
+            "Name": "Mouse & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of mouse and cynomolgus monkey embryo using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE160050"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE160049"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1126/science.abd8887",
+        "PaperTitle": "The X chromosome dosage compensation program during the development of cynomolgus monkeys",
+        "FirstAuthor": "Okamoto I",
+        "Journal": "Science",
+        "Year": 2021,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of cynomolgus monkey embryo using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE151149"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/biolre/ioaa195",
+        "PaperTitle": "Cyclosporin A and FGF signaling support the proliferation/survival of mouse primordial germ cell-like cells in vitro\u2020",
+        "FirstAuthor": "Ohta H",
+        "Journal": "Biol Reprod",
+        "Year": 2021,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "Transcriptome analysis of mouse PGCLC culture suppoted by Cyclosporin A and FGF signaling.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE151446"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE151444"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/biolre/ioaa195",
+        "PaperTitle": "Cyclosporin A and FGF signaling support the proliferation/survival of mouse primordial germ cell-like cells in vitro\u2020",
+        "FirstAuthor": "Ohta H",
+        "Journal": "Biol Reprod",
+        "Year": 2021,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "DNAme",
+        "MethodsTechnics": "DNAme",
+        "BriefSummaryOfData": "Transcriptome analysis of mouse PGCLC culture suppoted by Cyclosporin A and FGF signaling.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE151446"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE151445"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.26508/lsa.202000974",
+        "PaperTitle": "GATA transcription factors, SOX17 and TFAP2C, drive the human germ-cell specification program",
+        "FirstAuthor": "Kojima Y",
+        "Journal": "Life Sci Alliance",
+        "Year": 2021,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "3' RNA-Seq samples of human iPSCs at different time points during PGCLC differentiation with genetic modification",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE154691"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE154688"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.26508/lsa.202000974",
+        "PaperTitle": "GATA transcription factors, SOX17 and TFAP2C, drive the human germ-cell specification program",
+        "FirstAuthor": "Kojima Y",
+        "Journal": "Life Sci Alliance",
+        "Year": 2021,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "Whole genome DNA seq",
+        "MethodsTechnics": null,
+        "BriefSummaryOfData": "Whole Genome Bisulfite Sequence (WGBS): Overexpression of SOX17, TFAP2C, GATA3, clone_1; day77",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE154691"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE154690"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.stem.2021.08.005",
+        "PaperTitle": "In vitro reconstitution of the whole male germ-cell development from mouse pluripotent stem cells",
+        "FirstAuthor": "Ishikura Y",
+        "Journal": "Cell Stem Cell",
+        "Year": 2021,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "Transcriptome analysis of mouse spermatogonia and germline stem cell-like cells.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE168222"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE168220"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.stem.2021.08.005",
+        "PaperTitle": "In vitro reconstitution of the whole male germ-cell development from mouse pluripotent stem cells",
+        "FirstAuthor": "Ishikura Y",
+        "Journal": "Cell Stem Cell",
+        "Year": 2021,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "DNAme",
+        "MethodsTechnics": "DNAme",
+        "BriefSummaryOfData": "Methylome analysis of mouse spermatogonia and germline stem cell-like cells.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE168222"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE168221"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2021.109909",
+        "PaperTitle": "Inherent genomic properties underlie the epigenomic heterogeneity of human induced pluripotent stem cells",
+        "FirstAuthor": "Yokobayashi S",
+        "Journal": "Cell Rep",
+        "Year": 2021,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "Histone mark",
+        "MethodsTechnics": "Histone mark",
+        "BriefSummaryOfData": "Examination of epigenetic heterogeneity among human iPSC lines",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE165869"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE165867"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2021.109909",
+        "PaperTitle": "Inherent genomic properties underlie the epigenomic heterogeneity of human induced pluripotent stem cells",
+        "FirstAuthor": "Yokobayashi S",
+        "Journal": "Cell Rep",
+        "Year": 2021,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "Examination of epigenetic heterogeneity among human iPSC lines",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE165869"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE165868"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2021.109909",
+        "PaperTitle": "Inherent genomic properties underlie the epigenomic heterogeneity of human induced pluripotent stem cells",
+        "FirstAuthor": "Yokobayashi S",
+        "Journal": "Cell Rep",
+        "Year": 2021,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "Whole genome DNA seq",
+        "MethodsTechnics": null,
+        "BriefSummaryOfData": "Examination of epigenetic heterogeneity among human iPSC lines",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE165869"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE166138"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1126/science.aaw4115",
+        "PaperTitle": "ZGLP1 is a determinant for the oogenic fate in mice",
+        "FirstAuthor": "Nagaoka S",
+        "Journal": "Science",
+        "Year": 2020,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "Histone mark",
+        "MethodsTechnics": "Histone mark",
+        "BriefSummaryOfData": "8 V5-ChIP-seq samples in 2 cell types with 2 treatments: c7 PGCLCs (Dox Only)_ChIP, c8 PGCLCs (Dox Only)_ChIP, c8 PGCLCs (Dox Only)_Input, c7 PGCLCs (Dox and RA), c8 PGCLCs (Dox and RA), c8 PGCLCs (Dox and RA)_Input, ESCs (Dox and RA)_ChIP, ESCs (Dox and RA)_Input",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE124262"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE124260"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1126/science.aaw4115",
+        "PaperTitle": "ZGLP1 is a determinant for the oogenic fate in mice",
+        "FirstAuthor": "Nagaoka S",
+        "Journal": "Science",
+        "Year": 2020,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis of PGCs, oocytes and PGCLCs in Zglp1 knockout/over expression and Stra8 KO lines",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE124262"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE124261"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/biolre/ioz205",
+        "PaperTitle": "Induction of the germ cell fate from pluripotent stem cells in cynomolgus monkeys",
+        "FirstAuthor": "Sakai Y",
+        "Journal": "Biol Reprod",
+        "Year": 2020,
+        "Species": {
+            "Name": "Mouse & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis during cynomolgus monkey PGCLC induction.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE134010"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE134008"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/biolre/ioz205",
+        "PaperTitle": "Induction of the germ cell fate from pluripotent stem cells in cynomolgus monkeys",
+        "FirstAuthor": "Sakai Y",
+        "Journal": "Biol Reprod",
+        "Year": 2020,
+        "Species": {
+            "Name": "Mouse & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis during cynomolgus monkey PGCLC induction.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE134010"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE134009"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2020104929",
+        "PaperTitle": "Long-term expansion with germline potential of human primordial germ cell-like cells in vitro",
+        "FirstAuthor": "Murase Y",
+        "Journal": "EMBO J",
+        "Year": 2020,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNA-seq analysis of human iPSC, iMeLC, PGCLC, and expanded PGCLC.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE147500"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE147498"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2020104929",
+        "PaperTitle": "Long-term expansion with germline potential of human primordial germ cell-like cells in vitro",
+        "FirstAuthor": "Murase Y",
+        "Journal": "EMBO J",
+        "Year": 2020,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "DNAme",
+        "MethodsTechnics": "DNAme",
+        "BriefSummaryOfData": "WGBS (PBAT method) analysis of human PGCLC, and expanded PGCLC.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE147500"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE147499"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.2020104929",
+        "PaperTitle": "Long-term expansion with germline potential of human primordial germ cell-like cells in vitro",
+        "FirstAuthor": "Murase Y",
+        "Journal": "EMBO J",
+        "Year": 2020,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "CGH array",
+        "MethodsTechnics": null,
+        "BriefSummaryOfData": "array Comparative Genome Hybridization analysis of human iPSC and expanded PGCLC.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE147500"
+            },
+            {
+                "Label": "Link2",
+                "URL": "GSE148415"
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1126/science.aat1674",
+        "PaperTitle": "Generation of human oogonia from induced pluripotent stem cells in vitro",
+        "FirstAuthor": "Yamashiro C",
+        "Journal": "Science",
+        "Year": 2018,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNA-seq analysis of human iPSC, iMeLC, PGCLC and aggregate cultured cells oogonia-like cells.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE117101"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1038/sdata.2017.67",
+        "PaperTitle": "Single-cell transcriptome of early embryos and cultured embryonic stem cells of cynomolgus monkeys",
+        "FirstAuthor": "Nakamura T",
+        "Journal": "Sci Data",
+        "Year": 2017,
+        "Species": {
+            "Name": "Human & Mouse & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis of human induced pluripotent stem cells (hiPSC), incipient mesoderm-like cells (iMeLC) and primordial germ cell-like cells (BLIMP1-2A-tdTomato (BT)/TFAP2C-2A-ECFP (AG) expressing cells or EpCAM/CD49f (CSM) positive cells)\nRNAseq analysis of mouse embryonic stem cells (mESC), epiblast-like cells (EpiLC) and primordial germ cell-like cells (PGCLC; Blimp1-mVenus (BV) or BV/stella-eCFP (SC) positive cells)\nSingle cell RNAseq analysis of cynomolgus ESCs and gonadal PGCs",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE67259"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1038/sdata.2017.67",
+        "PaperTitle": "Single-cell transcriptome of early embryos and cultured embryonic stem cells of cynomolgus monkeys",
+        "FirstAuthor": "Nakamura T",
+        "Journal": "Sci Data",
+        "Year": 2017,
+        "Species": {
+            "Name": "Cynomolgus & Mouse",
+            "TaxonID": null
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of cynomolgus monkey embryo E6-17 and mouse embryo E4.5 - E6.5 as well as of cynomogus monkey embryonic stem cells (ESCs) and mouse ESC, epiblast like cells (EpiLCs), using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE74767"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1038/sdata.2017.67",
+        "PaperTitle": "Single-cell transcriptome of early embryos and cultured embryonic stem cells of cynomolgus monkeys",
+        "FirstAuthor": "Nakamura T",
+        "Journal": "Sci Data",
+        "Year": 2017,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of cynomolgus monkey embryo E13-20 using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE76267"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1038/srep45285",
+        "PaperTitle": "Discrimination of Stem Cell Status after Subjecting Cynomolgus Monkey Pluripotent Stem Cells to Na\u00efve Conversion",
+        "FirstAuthor": "Honda A",
+        "Journal": "Sci Rep",
+        "Year": 2017,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis of cynomolgus monkey ESCs/iPSCs cultured in Primed, Naive-like and Differentiated conditions using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE87576"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.15252/embj.201695862",
+        "PaperTitle": "In vitro expansion of mouse primordial germ cell-like cells recapitulates an epigenetic blank slate",
+        "FirstAuthor": "Ohta H",
+        "Journal": "EMBO J",
+        "Year": 2017,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "3' RNAseq analyses for d4c3, d4c5, and d4c7 PGCLCs (BVSC+), PGCs at E9.5, and male/female germ cells at E12.5 (Stella-EGFP+)",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE87644"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/nar/gkx798",
+        "PaperTitle": "Principles for the regulation of multiple developmental pathways by a versatile transcriptional factor, BLIMP1",
+        "FirstAuthor": "Mitani T",
+        "Journal": "Nucleic Acids Res",
+        "Year": 2017,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "26 3' RNAseq samples in 13 cell types: d2PGCLC (2 replicates), E16.5_Embryonic intestinal epithelium (E16.5_emIE, 2 replicates), P3_Embryonic intestinal epithelium (P3_emIE, 2 replicates), P14_Embryonic intestinal epithelium (P14_emIE, 2 replicates), P0_Photoreceptor precursor_GFP+ (P0_PRP_GFP+, 2 replicates), P4_Photoreceptor precursor_GFP+ (P4_PRP_GFP+CD73-, 2 replicates), P4_Photoreceptor precursor_CD73+ (P4_PRP_CD73+, 2 replicates), P6_Photoreceptor precursor_CD73+ (P6_PRP_CD73+, 2 replicates), P10_Photoreceptor precursor_CD73+ (P10_PRP_CD73+, 2 replicates), B cell (B cell, 2 replicates), Blast (Blast, 2 replicates), Pre-plasmablast (prePB, 2 replicates), Plamsablast (PB, 2 replicates)",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE91040"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/biolre/iox038",
+        "PaperTitle": "Clonal variation of human induced pluripotent stem cells for induction into the germ cell fate",
+        "FirstAuthor": "Yokobayashi S",
+        "Journal": "Biol Reprod",
+        "Year": 2017,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis of human induced pluripotent stem cells (hiPSC) and incipient mesoderm-like cells (iMeLC).",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE98323"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.stem.2017.09.005",
+        "PaperTitle": "Evolutionarily Distinctive Transcriptional and Signaling Programs Drive Human Germ Cell Lineage Specification from Pluripotent Stem Cells",
+        "FirstAuthor": "Kojima Y",
+        "Journal": "Cell Stem Cell",
+        "Year": 2017,
+        "Species": {
+            "Name": "Human",
+            "TaxonID": 9606
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis of hiPSCs, iMeLCs and hPGCLCs in multiple knockout/rescued lines",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE99350"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1095/biolreprod.115.133256",
+        "PaperTitle": "Persistent Requirement and Alteration of the Key Targets of PRDM1 During Primordial Germ Cell Development in Mice",
+        "FirstAuthor": "Yamashiro C",
+        "Journal": "Biol Reprod",
+        "Year": 2016,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "Examination of Prdm1 conditional knock-out primordial germ cells",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE74094"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1038/nature19096",
+        "PaperTitle": "A developmental coordinate of pluripotency among mice, monkeys and humans",
+        "FirstAuthor": "Nakamura T",
+        "Journal": "Nature",
+        "Year": 2016,
+        "Species": {
+            "Name": "Cynomolgus & Mouse",
+            "TaxonID": null
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of cynomolgus monkey embryo E6-17 and mouse embryo E4.5 - E6.5 as well as of cynomogus monkey embryonic stem cells (ESCs) and mouse ESC, epiblast like cells (EpiLCs), using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE74767"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2016.11.026",
+        "PaperTitle": "In Vitro Derivation and Propagation of Spermatogonial Stem Cell Activity from Mouse Pluripotent Stem Cells",
+        "FirstAuthor": "Ishikura Y",
+        "Journal": "Cell Rep",
+        "Year": 2016,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "Transcriptome analysis of mouse GSCs and GSCLCs using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE76245"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.devcel.2016.09.007",
+        "PaperTitle": "The Germ Cell Fate of Cynomolgus Monkeys Is Specified in the Nascent Amnion",
+        "FirstAuthor": "Sasaki K",
+        "Journal": "Dev Cell",
+        "Year": 2016,
+        "Species": {
+            "Name": "Cynomolgus",
+            "TaxonID": 9541
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Single cell transcriptome analysis of cynomolgus monkey embryo E13-20 using SC3-seq technology.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE76267"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.celrep.2016.11.026",
+        "PaperTitle": "In Vitro Derivation and Propagation of Spermatogonial Stem Cell Activity from Mouse Pluripotent Stem Cells",
+        "FirstAuthor": "Ishikura Y",
+        "Journal": "Cell Rep",
+        "Year": 2016,
+        "Species": {
+            "Name": "Mouse",
+            "TaxonID": 10090
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Transcriptome analysis of mouse GSCs and GSCLCs using SC3-seq technology",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE87341"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1093/nar/gkv134",
+        "PaperTitle": "SC3-seq: a method for highly parallel and quantitative measurement of single-cell gene expression",
+        "FirstAuthor": "Nakamura T",
+        "Journal": "Nucleic Acids Res",
+        "Year": 2015,
+        "Species": {
+            "Name": "Human & Mouse",
+            "TaxonID": null
+        },
+        "DataType": "scRNA-seq",
+        "MethodsTechnics": "scRNA-seq",
+        "BriefSummaryOfData": "Examination of SC3-seq form 5 serially diluted mESC total RNA.\nExamination of 38 individual blastocyst single cells\nExamination of hiPSC on SNL or feeder-free at single cell level.",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE63266"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    },
+    {
+        "PI": "Saitou",
+        "DOI": "10.1016/j.stem.2015.06.014",
+        "PaperTitle": "Robust In Vitro Induction of Human Germ Cell Fate from Pluripotent Stem Cells",
+        "FirstAuthor": "Sasaki K",
+        "Journal": "Cell Stem Cell",
+        "Year": 2015,
+        "Species": {
+            "Name": "Human & Mouse & Cynomolgus",
+            "TaxonID": null
+        },
+        "DataType": "RNA-seq",
+        "MethodsTechnics": "RNA-seq",
+        "BriefSummaryOfData": "RNAseq analysis of human induced pluripotent stem cells (hiPSC), incipient mesoderm-like cells (iMeLC) and primordial germ cell-like cells (BLIMP1-2A-tdTomato (BT)/TFAP2C-2A-ECFP (AG) expressing cells or EpCAM/CD49f (CSM) positive cells)\nRNAseq analysis of mouse embryonic stem cells (mESC), epiblast-like cells (EpiLC) and primordial germ cell-like cells (PGCLC; Blimp1-mVenus (BV) or BV/stella-eCFP (SC) positive cells)\nSingle cell RNAseq analysis of cynomolgus ESCs and gonadal PGCs",
+        "Archive": "GEO",
+        "Links": [
+            {
+                "Label": "Link1",
+                "URL": "GSE67259"
+            },
+            {
+                "Label": "Link2",
+                "URL": ""
+            }
+        ]
+    }
+]
