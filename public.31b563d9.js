@@ -16183,7 +16183,7 @@ const Dashboard = ()=>{
         'DataType'
     ];
     (0, _react.useEffect)(()=>{
-        fetch('papers.json').then((response)=>response.json()).then((data)=>{
+        fetch('/ashbi_web/papers.json').then((response)=>response.json()).then((data)=>{
             setAllPapers(data);
         });
     }, []);
