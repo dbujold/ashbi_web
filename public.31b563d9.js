@@ -16117,7 +16117,7 @@ const App = ()=>{
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("header", {
                 className: "App-header",
                 children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h1", {
-                    children: "Research Papers Analysis"
+                    children: "ASHBi Datasets and Manuscripts"
                 }, void 0, false, {
                     fileName: "src/App.js",
                     lineNumber: 9,
@@ -16183,7 +16183,7 @@ const Dashboard = ()=>{
         'DataType'
     ];
     (0, _react.useEffect)(()=>{
-        fetch('/ashbi_web/papers.json').then((response)=>response.json()).then((data)=>{
+        fetch('papers.json').then((response)=>response.json()).then((data)=>{
             setAllPapers(data);
         });
     }, []);
@@ -16290,6 +16290,11 @@ const Dashboard = ()=>{
                 lineNumber: 60,
                 columnNumber: 7
             }, undefined),
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("hr", {}, void 0, false, {
+                fileName: "src/components/Dashboard.js",
+                lineNumber: 73,
+                columnNumber: 7
+            }, undefined),
             selectedProperty && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _paperTableDefault.default), {
                 property: selectedProperty,
                 value: selectedPropertyValue,
@@ -16299,7 +16304,7 @@ const Dashboard = ()=>{
                 }
             }, void 0, false, {
                 fileName: "src/components/Dashboard.js",
-                lineNumber: 74,
+                lineNumber: 75,
                 columnNumber: 9
             }, undefined)
         ]
@@ -16334,6 +16339,7 @@ var _jsxDevRuntime = require("react/jsx-dev-runtime");
 var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 var _recharts = require("recharts");
+var _s = $RefreshSig$();
 const COLORS = [
     '#8884d8',
     '#82ca9d',
@@ -16341,10 +16347,21 @@ const COLORS = [
     '#FF8042',
     '#AF19FF'
 ];
+const SELECTED_COLOR = '#FF0000'; // Red
+const SELECTED_BORDER_COLOR = '#A30000'; // Darker red
 const PieChartComponent = ({ data, onSelect })=>{
-    const handleClick = (entry)=>{
+    _s();
+    const [selectedIndex, setSelectedIndex] = (0, _react.useState)(null); // State to hold the index of the selected slice
+    const handleClick = (entry, index)=>{
+        setSelectedIndex(index);
         onSelect(entry.name);
     };
+    // useEffect to clear selectedIndex when data prop changes#
+    (0, _react.useEffect)(()=>{
+        setSelectedIndex(null); // Clear the selected index
+    }, [
+        data
+    ]); // Dependency array: this effect runs whenever the 'data' prop changes
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _recharts.PieChart), {
             width: 400,
@@ -16365,39 +16382,42 @@ const PieChartComponent = ({ data, onSelect })=>{
                     },
                     onClick: handleClick,
                     children: data.map((entry, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _recharts.Cell), {
-                            fill: COLORS[index % COLORS.length]
+                            fill: selectedIndex === index ? SELECTED_COLOR : COLORS[index % COLORS.length],
+                            stroke: selectedIndex === index ? SELECTED_BORDER_COLOR : 'none',
+                            strokeWidth: selectedIndex === index ? 5 : 0
                         }, `cell-${index}`, false, {
                             fileName: "src/components/PieChartComponent.js",
-                            lineNumber: 26,
+                            lineNumber: 38,
                             columnNumber: 13
                         }, undefined))
                 }, void 0, false, {
                     fileName: "src/components/PieChartComponent.js",
-                    lineNumber: 14,
+                    lineNumber: 26,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _recharts.Tooltip), {}, void 0, false, {
                     fileName: "src/components/PieChartComponent.js",
-                    lineNumber: 29,
+                    lineNumber: 45,
                     columnNumber: 9
                 }, undefined),
                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)((0, _recharts.Legend), {}, void 0, false, {
                     fileName: "src/components/PieChartComponent.js",
-                    lineNumber: 30,
+                    lineNumber: 46,
                     columnNumber: 9
                 }, undefined)
             ]
         }, void 0, true, {
             fileName: "src/components/PieChartComponent.js",
-            lineNumber: 13,
+            lineNumber: 25,
             columnNumber: 7
         }, undefined)
     }, void 0, false, {
         fileName: "src/components/PieChartComponent.js",
-        lineNumber: 12,
+        lineNumber: 24,
         columnNumber: 5
     }, undefined);
 };
+_s(PieChartComponent, "ZGavpHla3LeaLl23epG5FemXymE=");
 _c = PieChartComponent;
 exports.default = PieChartComponent;
 var _c;
@@ -52227,18 +52247,25 @@ var _react = require("react");
 var _reactDefault = parcelHelpers.interopDefault(_react);
 const PaperTable = ({ property, value, papers })=>{
     const displayProperty = property.replace(/([A-Z])/g, ' $1').trim();
+    if (!papers || papers.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
+        children: "Select a pie chart slice to see relevant manuscripts."
+    }, void 0, false, {
+        fileName: "src/components/PaperTable.js",
+        lineNumber: 8,
+        columnNumber: 12
+    }, undefined);
     return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
             value && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
                 children: [
-                    "Papers with ",
+                    "Manuscripts with ",
                     displayProperty,
                     ": ",
                     value
                 ]
             }, void 0, true, {
                 fileName: "src/components/PaperTable.js",
-                lineNumber: 9,
+                lineNumber: 13,
                 columnNumber: 17
             }, undefined),
             /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
@@ -52250,60 +52277,60 @@ const PaperTable = ({ property, value, papers })=>{
                                     children: "PI"
                                 }, void 0, false, {
                                     fileName: "src/components/PaperTable.js",
-                                    lineNumber: 13,
+                                    lineNumber: 17,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "DOI"
                                 }, void 0, false, {
                                     fileName: "src/components/PaperTable.js",
-                                    lineNumber: 14,
+                                    lineNumber: 18,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Paper Title"
                                 }, void 0, false, {
                                     fileName: "src/components/PaperTable.js",
-                                    lineNumber: 15,
-                                    columnNumber: 13
-                                }, undefined),
-                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                                    children: "First Author"
-                                }, void 0, false, {
-                                    fileName: "src/components/PaperTable.js",
-                                    lineNumber: 16,
+                                    lineNumber: 19,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Journal"
                                 }, void 0, false, {
                                     fileName: "src/components/PaperTable.js",
-                                    lineNumber: 17,
+                                    lineNumber: 20,
+                                    columnNumber: 13
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "First Author"
+                                }, void 0, false, {
+                                    fileName: "src/components/PaperTable.js",
+                                    lineNumber: 21,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Year"
                                 }, void 0, false, {
                                     fileName: "src/components/PaperTable.js",
-                                    lineNumber: 18,
+                                    lineNumber: 22,
                                     columnNumber: 13
                                 }, undefined),
                                 /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
                                     children: "Species"
                                 }, void 0, false, {
                                     fileName: "src/components/PaperTable.js",
-                                    lineNumber: 19,
+                                    lineNumber: 23,
                                     columnNumber: 13
                                 }, undefined)
                             ]
                         }, void 0, true, {
                             fileName: "src/components/PaperTable.js",
-                            lineNumber: 12,
+                            lineNumber: 16,
                             columnNumber: 11
                         }, undefined)
                     }, void 0, false, {
                         fileName: "src/components/PaperTable.js",
-                        lineNumber: 11,
+                        lineNumber: 15,
                         columnNumber: 9
                     }, undefined),
                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
@@ -52313,7 +52340,7 @@ const PaperTable = ({ property, value, papers })=>{
                                         children: paper.PI
                                     }, void 0, false, {
                                         fileName: "src/components/PaperTable.js",
-                                        lineNumber: 25,
+                                        lineNumber: 29,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
@@ -52324,70 +52351,70 @@ const PaperTable = ({ property, value, papers })=>{
                                             children: paper.DOI
                                         }, void 0, false, {
                                             fileName: "src/components/PaperTable.js",
-                                            lineNumber: 27,
+                                            lineNumber: 31,
                                             columnNumber: 17
                                         }, undefined)
-                                    }, void 0, false, {
-                                        fileName: "src/components/PaperTable.js",
-                                        lineNumber: 26,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                        children: paper.PaperTitle
-                                    }, void 0, false, {
-                                        fileName: "src/components/PaperTable.js",
-                                        lineNumber: 29,
-                                        columnNumber: 15
-                                    }, undefined),
-                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                        children: paper.Journal
                                     }, void 0, false, {
                                         fileName: "src/components/PaperTable.js",
                                         lineNumber: 30,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: paper.PaperTitle
+                                    }, void 0, false, {
+                                        fileName: "src/components/PaperTable.js",
+                                        lineNumber: 33,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: paper.Journal
+                                    }, void 0, false, {
+                                        fileName: "src/components/PaperTable.js",
+                                        lineNumber: 34,
+                                        columnNumber: 15
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                         children: paper.FirstAuthor
                                     }, void 0, false, {
                                         fileName: "src/components/PaperTable.js",
-                                        lineNumber: 31,
+                                        lineNumber: 35,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                         children: paper.Year
                                     }, void 0, false, {
                                         fileName: "src/components/PaperTable.js",
-                                        lineNumber: 32,
+                                        lineNumber: 36,
                                         columnNumber: 15
                                     }, undefined),
                                     /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
                                         children: paper.Species.Name
                                     }, void 0, false, {
                                         fileName: "src/components/PaperTable.js",
-                                        lineNumber: 33,
+                                        lineNumber: 37,
                                         columnNumber: 15
                                     }, undefined)
                                 ]
                             }, index, true, {
                                 fileName: "src/components/PaperTable.js",
-                                lineNumber: 24,
+                                lineNumber: 28,
                                 columnNumber: 13
                             }, undefined))
                     }, void 0, false, {
                         fileName: "src/components/PaperTable.js",
-                        lineNumber: 22,
+                        lineNumber: 26,
                         columnNumber: 9
                     }, undefined)
                 ]
             }, void 0, true, {
                 fileName: "src/components/PaperTable.js",
-                lineNumber: 10,
+                lineNumber: 14,
                 columnNumber: 7
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/PaperTable.js",
-        lineNumber: 8,
+        lineNumber: 12,
         columnNumber: 5
     }, undefined);
 };
@@ -52449,112 +52476,167 @@ const DatasetTable = ({ property, value, papers })=>{
         papers
     ]); // Depend on the 'papers' prop
     if (!flattenedDatasets || flattenedDatasets.length === 0) return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("p", {
-        children: "No dataset information available."
+        children: "Select a pie chart slice to see relevant datasets."
     }, void 0, false, {
         fileName: "src/components/DatasetTable.js",
         lineNumber: 38,
         columnNumber: 12
     }, undefined);
-    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+    return /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("div", {
         children: [
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
-                children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                    children: [
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                            children: "PI"
-                        }, void 0, false, {
-                            fileName: "src/components/DatasetTable.js",
-                            lineNumber: 46,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                            children: "Year"
-                        }, void 0, false, {
-                            fileName: "src/components/DatasetTable.js",
-                            lineNumber: 47,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                            children: "Archive"
-                        }, void 0, false, {
-                            fileName: "src/components/DatasetTable.js",
-                            lineNumber: 48,
-                            columnNumber: 11
-                        }, undefined),
-                        /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
-                            children: "Dataset ID"
-                        }, void 0, false, {
-                            fileName: "src/components/DatasetTable.js",
-                            lineNumber: 49,
-                            columnNumber: 11
-                        }, undefined)
-                    ]
-                }, void 0, true, {
-                    fileName: "src/components/DatasetTable.js",
-                    lineNumber: 45,
-                    columnNumber: 9
-                }, undefined)
-            }, void 0, false, {
+            value && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("h3", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("b", {
+                        children: "Datasets"
+                    }, void 0, false, {
+                        fileName: "src/components/DatasetTable.js",
+                        lineNumber: 43,
+                        columnNumber: 21
+                    }, undefined),
+                    " deposited for ",
+                    displayProperty,
+                    ": ",
+                    value
+                ]
+            }, void 0, true, {
                 fileName: "src/components/DatasetTable.js",
-                lineNumber: 44,
-                columnNumber: 7
+                lineNumber: 43,
+                columnNumber: 17
             }, undefined),
-            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
-                children: flattenedDatasets.map((dataset, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
-                        children: [
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: dataset.PI
-                            }, void 0, false, {
-                                fileName: "src/components/DatasetTable.js",
-                                lineNumber: 56,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: dataset.Year
-                            }, void 0, false, {
-                                fileName: "src/components/DatasetTable.js",
-                                lineNumber: 57,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: dataset.Archive
-                            }, void 0, false, {
-                                fileName: "src/components/DatasetTable.js",
-                                lineNumber: 58,
-                                columnNumber: 13
-                            }, undefined),
-                            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
-                                children: dataset.LinkURL && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
-                                    href: dataset.LinkURL,
-                                    target: "_blank",
-                                    rel: "noopener noreferrer",
-                                    children: dataset.LinkLabel
+            /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("table", {
+                children: [
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("thead", {
+                        children: /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                            children: [
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "PI"
                                 }, void 0, false, {
                                     fileName: "src/components/DatasetTable.js",
-                                    lineNumber: 61,
-                                    columnNumber: 17
+                                    lineNumber: 47,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Year"
+                                }, void 0, false, {
+                                    fileName: "src/components/DatasetTable.js",
+                                    lineNumber: 48,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Species"
+                                }, void 0, false, {
+                                    fileName: "src/components/DatasetTable.js",
+                                    lineNumber: 49,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Data Type"
+                                }, void 0, false, {
+                                    fileName: "src/components/DatasetTable.js",
+                                    lineNumber: 50,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Archive"
+                                }, void 0, false, {
+                                    fileName: "src/components/DatasetTable.js",
+                                    lineNumber: 51,
+                                    columnNumber: 11
+                                }, undefined),
+                                /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("th", {
+                                    children: "Dataset ID"
+                                }, void 0, false, {
+                                    fileName: "src/components/DatasetTable.js",
+                                    lineNumber: 52,
+                                    columnNumber: 11
                                 }, undefined)
-                            }, void 0, false, {
-                                fileName: "src/components/DatasetTable.js",
-                                lineNumber: 59,
-                                columnNumber: 13
-                            }, undefined)
-                        ]
-                    }, index, true, {
+                            ]
+                        }, void 0, true, {
+                            fileName: "src/components/DatasetTable.js",
+                            lineNumber: 46,
+                            columnNumber: 9
+                        }, undefined)
+                    }, void 0, false, {
                         fileName: "src/components/DatasetTable.js",
-                        lineNumber: 55,
-                        columnNumber: 11
-                    }, undefined))
-            }, void 0, false, {
+                        lineNumber: 45,
+                        columnNumber: 7
+                    }, undefined),
+                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tbody", {
+                        children: flattenedDatasets.map((dataset, index)=>/*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("tr", {
+                                children: [
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: dataset.PI
+                                    }, void 0, false, {
+                                        fileName: "src/components/DatasetTable.js",
+                                        lineNumber: 59,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: dataset.Year
+                                    }, void 0, false, {
+                                        fileName: "src/components/DatasetTable.js",
+                                        lineNumber: 60,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: dataset.Species.Name
+                                    }, void 0, false, {
+                                        fileName: "src/components/DatasetTable.js",
+                                        lineNumber: 61,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: dataset.DataType
+                                    }, void 0, false, {
+                                        fileName: "src/components/DatasetTable.js",
+                                        lineNumber: 62,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: dataset.Archive
+                                    }, void 0, false, {
+                                        fileName: "src/components/DatasetTable.js",
+                                        lineNumber: 63,
+                                        columnNumber: 13
+                                    }, undefined),
+                                    /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("td", {
+                                        children: dataset.LinkURL && /*#__PURE__*/ (0, _jsxDevRuntime.jsxDEV)("a", {
+                                            href: dataset.LinkURL,
+                                            target: "_blank",
+                                            rel: "noopener noreferrer",
+                                            children: dataset.LinkLabel
+                                        }, void 0, false, {
+                                            fileName: "src/components/DatasetTable.js",
+                                            lineNumber: 66,
+                                            columnNumber: 17
+                                        }, undefined)
+                                    }, void 0, false, {
+                                        fileName: "src/components/DatasetTable.js",
+                                        lineNumber: 64,
+                                        columnNumber: 13
+                                    }, undefined)
+                                ]
+                            }, index, true, {
+                                fileName: "src/components/DatasetTable.js",
+                                lineNumber: 58,
+                                columnNumber: 11
+                            }, undefined))
+                    }, void 0, false, {
+                        fileName: "src/components/DatasetTable.js",
+                        lineNumber: 56,
+                        columnNumber: 7
+                    }, undefined)
+                ]
+            }, void 0, true, {
                 fileName: "src/components/DatasetTable.js",
-                lineNumber: 53,
-                columnNumber: 7
+                lineNumber: 44,
+                columnNumber: 5
             }, undefined)
         ]
     }, void 0, true, {
         fileName: "src/components/DatasetTable.js",
-        lineNumber: 43,
-        columnNumber: 5
+        lineNumber: 42,
+        columnNumber: 3
     }, undefined);
 };
 _s(DatasetTable, "POaGiKYpSqbuS/QNC5/HhgK4CgA=");
